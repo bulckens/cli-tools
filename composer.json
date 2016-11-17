@@ -1,0 +1,23 @@
+{
+    "name": "bulckens/cli-tools",
+    "description": "CLI output and management tools",
+    "type": "library",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "wout",
+            "email": "wout@mick-wout.com"
+        }
+    ],
+    "repositories": [],
+    "require": {},
+    "dist": {
+        "url": "git@github.com:bulckens/cli-tools.git",
+        "type": "git"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bulckens": "src/"
+        }
+    }
+}
