@@ -25,9 +25,9 @@ abstract class Output {
   }
 
   // Something is going wrong (red); always exits
-  public static function bad( $message ) {
+  public static function bad( $message, $exit = true ) {
     self::message( Style::red( $message ) );
-    exit;
+    if ( $exit ) exit;
   }
   
 }
