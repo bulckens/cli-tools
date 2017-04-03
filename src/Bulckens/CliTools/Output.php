@@ -24,7 +24,7 @@ abstract class Output {
     self::message( Style::yellow( $message ) );
   }
 
-  // Something is going wrong (red); always exits
+  // Something is going wrong (red); always exits by default
   public static function bad( $message, $exit = true ) {
     self::message( Style::red( $message ) );
     if ( $exit ) exit;
