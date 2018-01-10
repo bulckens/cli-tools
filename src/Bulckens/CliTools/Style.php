@@ -6,7 +6,7 @@ abstract class Style {
 
   // Reset to plain
   public static function end( $output, $newline = false ) {
-    $output = "$output\033[30m";
+    $output = "$output\033[0m";
 
     if ( $newline )
       $output .= "\n";
