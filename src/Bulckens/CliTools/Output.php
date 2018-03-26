@@ -13,6 +13,7 @@ abstract class Output {
   public static function hey( $message ) {
     self::message( Style::grey( $message ));
   }
+  public static function info( $message ) { self::hey( $message ); }
   public static function grey( $message ) { self::hey( $message ); }
 
 
