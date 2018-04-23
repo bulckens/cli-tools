@@ -6,9 +6,9 @@ abstract class System {
 
   // Detect OS
   public static function os() {
-    if ( exec( 'sw_ver > /dev/null  &' )) {
+    if ( exec( 'sw_ver', $output )) {
       return 'macOS';
-    } elseif ( exec( 'lscpu > /dev/null  &' )) {
+    } elseif ( exec( 'lscpu', $output )) {
       return 'linux';
     } else {
       return 'other';
