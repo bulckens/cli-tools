@@ -6,7 +6,7 @@ abstract class System {
 
   // Detect OS
   public static function os() {
-    if ( `which sw_ver` ) {
+    if ( `which sw_vers` ) {
       return 'macOS';
     } elseif ( `which lscpu` ) {
       return 'linux';
