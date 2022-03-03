@@ -11,10 +11,6 @@
     ],
     "repositories": [],
     "require": {},
-    "dist": {
-        "url": "git@github.com:bulckens/cli-tools.git",
-        "type": "git"
-    },
     "autoload": {
         "psr-0": {
             "": "src/"
