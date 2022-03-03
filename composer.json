@@ -2,11 +2,11 @@
     "name": "bulckens/cli-tools",
     "description": "CLI output and management tools",
     "type": "library",
-    "license": "Proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "wout",
-            "email": "wout@mick-wout.com"
+            "email": "w@zwartopwit.be"
         }
     ],
     "repositories": [],
